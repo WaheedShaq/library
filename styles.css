@@ -1,0 +1,29 @@
+#new-book-btn {
+  display: block;
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 20px;
+  background-color: cyan;
+  border-radius: 20px;
+}
+
+.form-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  /* border: solid 1px black; */
+  padding: 20px;
+  margin-top: 50px;
+  gap: 10px;
+
+  /* height: 80vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  color: black; */
+}
