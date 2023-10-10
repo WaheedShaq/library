@@ -1,29 +1,81 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  /* gap: 40px; */
+  justify-content: space-between;
+  background-color: #171d1c;
+  color: white;
+  padding: 40px;
+  margin-bottom: 100px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  color: white;
+  align-items: center;
+  margin-right: 40px;
+}
+.header {
+  font-size: 30px;
+}
+.log-in {
+  cursor: pointer;
+  font-size: 20px;
+}
+
 #new-book-btn {
   display: block;
   padding: 20px;
   margin: 0 auto;
   font-size: 20px;
-  background-color: cyan;
+  background-color: #171d1c;
   border-radius: 20px;
+  color: white;
+  cursor: pointer;
 }
 
 .form-div {
   display: flex;
   flex-direction: column;
+
   align-items: center;
-  text-align: center;
-  justify-content: center;
-  /* border: solid 1px black; */
   padding: 20px;
   margin-top: 50px;
-  gap: 10px;
+  gap: 30px;
+}
 
-  /* height: 80vh;
-  width: 40vw;
+#library {
+  margin-top: 40px;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  gap: 40px;
+  margin-left: 50px;
+  flex-wrap: wrap;
+}
+
+.card-header,
+.card-body {
+  border: solid 3px black;
+  font-size: 25px;
+}
+
+.remove-btn,
+.toggle-read-btn {
+  padding: 5px;
+  margin: 0 auto;
   text-align: center;
-  background: linear-gradient(to right, #fceabb, #f8b500);
-  color: black; */
+  font-size: 15px;
+  background-color: #171d1c;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
